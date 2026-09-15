@@ -15,6 +15,11 @@ python3 run.py
 # API on http://localhost:5000  ·  Web UI on http://localhost:5000/
 ```
 > Linux/macOS: use `python3`. Windows: use `python`. (Ubuntu has no `python` alias unless you install `python-is-python3`.)
+>
+> Activation de l'environnement virtuel selon votre shell Windows :
+> - Git Bash : `source .venv/Scripts/activate`
+> - PowerShell : `.venv\Scripts\Activate.ps1`
+> - CMD : `.venv\Scripts\activate.bat`
 
 Ouvrez ensuite http://localhost:5000/ dans un navigateur pour l'interface web.
 
